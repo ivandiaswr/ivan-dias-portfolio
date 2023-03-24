@@ -84,7 +84,7 @@ and (orientation: portrait)
 and (-webkit-min-device-pixel-ratio: 2)
 { 
     .header-nav {
-        background-color: cornflowerblue;
+    
     }
     .header-list {
         position: absolute;
