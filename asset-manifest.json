@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ivan-dias-portfolio/static/css/main.ed9e7f0c.css",
-    "main.js": "/ivan-dias-portfolio/static/js/main.60b91a2a.js",
+    "main.css": "/ivan-dias-portfolio/static/css/main.d30d048a.css",
+    "main.js": "/ivan-dias-portfolio/static/js/main.591d3f98.js",
     "static/media/html5-logo.png": "/ivan-dias-portfolio/static/media/html5-logo.dbc3baa7e405494219e6.png",
     "static/media/resume.pdf": "/ivan-dias-portfolio/static/media/resume.b38406c311cee07e2545.pdf",
     "static/media/portfolio-thumbnail.png": "/ivan-dias-portfolio/static/media/portfolio-thumbnail.bc806949cdb82e7f5d6f.png",
@@ -13,11 +13,11 @@
     "static/media/css3-logo.png": "/ivan-dias-portfolio/static/media/css3-logo.5d3f585222f506795d53.png",
     "static/media/email-logo-black.png": "/ivan-dias-portfolio/static/media/email-logo-black.51b08bcbb5af7a861c31.png",
     "index.html": "/ivan-dias-portfolio/index.html",
-    "main.ed9e7f0c.css.map": "/ivan-dias-portfolio/static/css/main.ed9e7f0c.css.map",
-    "main.60b91a2a.js.map": "/ivan-dias-portfolio/static/js/main.60b91a2a.js.map"
+    "main.d30d048a.css.map": "/ivan-dias-portfolio/static/css/main.d30d048a.css.map",
+    "main.591d3f98.js.map": "/ivan-dias-portfolio/static/js/main.591d3f98.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed9e7f0c.css",
-    "static/js/main.60b91a2a.js"
+    "static/css/main.d30d048a.css",
+    "static/js/main.591d3f98.js"
   ]
 }
