@@ -164,4 +164,10 @@
     }
 }
 
+@media screen and (max-width: 430px) {
+    .home-skills img{
+        width: 55px;
+    }
+}
+
   

@@ -61,7 +61,7 @@
     text-decoration: none;
 }
 
-@media screen and (max-width: 652px) {
+@media only screen and (max-width: 652px) {
     .header-name{
         font-size: 25px;
     }
@@ -70,9 +70,27 @@
     }
 }
 
-@media screen and (max-width: 412px) {
+@media only  screen and (max-width: 412px) {
     .header-name{
         font-size: 20px;
+    }
+    
+}
+
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 2)
+{ 
+    .header-nav {
+        background-color: cornflowerblue;
+    }
+    .header-list {
+        position: absolute;
+        text-align: center;
+        left: -90px;
+        right: 40px;
     }
 }
 

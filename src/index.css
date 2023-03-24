@@ -2,7 +2,7 @@ body {
     background-color: whitesmoke;
     margin: 0;
     font-family: Roboto, Arial;
-    
+    width: 100%;
 }
 
 *, html {
