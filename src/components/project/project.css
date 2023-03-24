@@ -1,0 +1,137 @@
+.section-project{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-project-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+}
+
+.project{
+    display: flex;
+    justify-content: center;
+    
+    border-radius: 25px;
+    padding: 10px;
+    width: auto;
+}
+
+.project h1{
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    
+    -webkit-box-shadow: 0px 2px 2px 0px rgba(239, 152, 52, 0.194);
+    -moz-box-shadow: 0px 2px 2px 0px rgba(239, 152, 52, 0.194);
+    box-shadow: 0px 1px 0px 0px rgba(239, 152, 52, 0.194);
+}
+
+.project-items{
+    display: flex;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.section-project-image{
+    width: 450px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.section-project-info{
+    width: 450px;
+    height: 100%;
+    padding-left: 20px;
+}
+
+.section-project-description{
+    height: 180px;
+    padding-bottom: 30px;
+}
+
+.section-project-description p{
+    height: 150px;
+    font-size: 14px;
+    color: #333333;
+}
+
+.section-project-skills p{
+    margin: 0;
+    font-weight: 600;
+    border-bottom: 2px solid darkorange;
+}
+
+.section-project-skills{
+    display: flex;
+    justify-content: space-between;
+    
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.section-project-external{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.a-section-project-demo,
+.a-section-project-github{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: black
+}
+
+.img-section-project-github,
+.img-section-project-demo
+{
+    width: 25px;  
+}
+
+.img-section-project-github:hover,
+.img-section-project-demo:hover
+{
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+}
+
+.img-section-project-github,
+.img-section-project-demo{
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 950px) {
+
+    .project-items{
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        border-radius: 25px;
+        background-color: white;
+    }
+}
+
+@media screen and (max-width: 652px) {
+    .section-project-image{
+        width: 300px;
+    }
+    .section-project-info{
+        width: 300px;
+        height: 100%;
+    }
+    .section-project-description{
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .section-project-grid{
+        
+    }
+}

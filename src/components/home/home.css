@@ -1,0 +1,167 @@
+.section-home{
+    display: flex;
+    justify-content: center;
+}
+
+.home{
+    height: auto;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.home-info{
+    width: 900px;
+    height: 300px;
+
+    display: flex;
+}
+
+.home-titles{
+    margin-right: 70px;
+}
+
+.home-title-primary{
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.home-title-secondary{
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.home-titles p {
+    color: #6e6e6e;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.6;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.home-titles span {
+    color: rgb(238, 134, 6);
+}
+
+.images {
+    height: 100px;
+    display: flex;
+}
+
+.img-linkedin, 
+.img-github, 
+.img-resume {
+    width: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.img-portofolio {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    object-fit: cover;
+}
+
+.a-linkedin:after,
+.a-github:after,
+.a-resume:after {
+    content: '';
+    display: flex;
+    height: 3px;
+    width: 0px;
+    background: white;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+.a-linkedin:hover:after,
+.a-github:hover:after,
+.a-resume:hover:after {
+    width: 30px;
+    background: rgb(238, 134, 6);
+}
+
+.home-skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+    margin-top: 150px;
+}
+
+.home-skills p {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.home-skills img{
+    width: 70px;
+    height: 50px;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 950px) {
+    .home-info{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin-top: 150px;
+    }
+
+    .img-portofolio {
+        width: 250px;
+        height: 250px;
+        border-radius:100%;
+    }
+    
+
+    .home-titles{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        margin: 0 15%;
+        margin-top: 50px;
+    }
+    
+    .home-skills{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        
+        margin-top: 150px;
+    }
+  }
+
+  @media screen and (max-width: 652px) {
+
+    .home-titles{
+        margin: 0 30%;
+        margin-top: 50px;
+    }
+
+    .home-title-primary{
+        font-size: 30px;
+    }
+
+    .home-title-secondary{
+        font-size: 20px;
+    }
+
+    .home-titles p{
+        font-size: 15px;
+    }
+
+    .home-skills{
+       flex-direction: column;
+    }
+}
+
+  
