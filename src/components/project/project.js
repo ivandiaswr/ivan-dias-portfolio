@@ -25,14 +25,23 @@ function Project() {
                     <p>React.js</p>
                   </div>
                   <div className="section-project-external">
-                    <a className="a-section-project-github" href="https://github.com/ivandiaswr/portfolio" target="_blank" rel="noreferrer">Code<img className="img-section-project-github" src= {github} alt="GitHub" title="GitHub"/></a>
+                    <a className="a-section-project-github" href="https://github.com/ivandiaswr/ivan-dias-portfolio" target="_blank" rel="noreferrer">Code<img className="img-section-project-github" src= {github} alt="GitHub" title="GitHub"/></a>
                     <a className="a-section-project-demo" href="https://github.com/ivandiaswr" target="_blank" rel="noreferrer">Live Demo<img className="img-section-project-demo" src= {demo} alt="Live Demo" title="Live Demo"/></a>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="project">
+           
+          </div>
+        </section>
+  );
+}
+
+export default Project;
+
+
+/*  <div className="project">
               <div className="project-items">
                 <img className="section-project-image" src= "" alt="Under development"/>
                 <div className="section-project-info">
@@ -52,9 +61,4 @@ function Project() {
                 </div>
               </div>
             </div>
-          </div>
-        </section>
-  );
-}
-
-export default Project;
+            */
