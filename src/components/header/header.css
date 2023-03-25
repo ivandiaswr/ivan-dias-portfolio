@@ -1,13 +1,25 @@
+header{
+    display: grid;
+    grid-template-columns: 100%;
+    position: relative;
+}
+
 .header-nav{
     height: 75px;
+    width: 100%;
+    margin: 0 auto;
     position: fixed;
+
+    top: 0;
+    left: 0;
+    z-index:100;
+ 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 28px 7%;
 
-    left: 0;
-    right: 0;
-    top: 0;
+    transition: all .50s ease;
 
     font-weight: 700;
     background-color: whitesmoke;
@@ -18,26 +30,14 @@
 }
 
 .header-name{
-    font-size: 35px;
-    position: absolute;
-    left: 40px;
-}
-
-.header-list {
-    position: absolute;
-    text-align: center;
-    right: 40px;
+    font-size: 2.1rem;
 }
 
 .header-list li {
     list-style-type: none;
     display: inline-block;
-    position: relative;
-    font-size: 20px;
+    font-size: 1.3rem;
     padding-left: 15px;
-}
-
-.header-list li:hover {
     cursor: pointer;
 }
 
@@ -61,36 +61,34 @@
     text-decoration: none;
 }
 
-@media only screen and (max-width: 652px) {
+@media only screen and (min-width:0px) and (max-device-width:480px) { 
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+    .header-name{
+        font-size: 1.3rem;
+    }
+    
+    .header-list li {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width:481px) and (max-device-width:768px) { 
+    /* smartphones, Android phones, landscape iPhone */
     .header-name{
         font-size: 25px;
     }
     .header-list li {
-        font-size: 15px;
+        font-size: 18px;
+        padding: 5px;
     }
 }
 
-@media only  screen and (max-width: 412px) {
-    .header-name{
-        font-size: 20px;
-    }
-    
+@media only screen and (min-width:769px) and (max-device-width:1024px)  { 
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
 }
-
-@media only screen
-and (min-device-width: 375px)
-and (max-device-width: 667px)
-and (orientation: portrait)
-and (-webkit-min-device-pixel-ratio: 2)
-{ 
-    .header-nav {
-    
-    }
-    .header-list {
-        position: absolute;
-        text-align: center;
-        left: -90px;
-        right: 40px;
-    }
+@media only screen and (min-width:1025px) and (max-device-width:1200px)   { 
+    /* tablet, landscape iPad, lo-res laptops ands desktops */ 
 }
-
+@media (min-width:1201px) { 
+    /* big landscape tablets, laptops, and desktops */ 
+}

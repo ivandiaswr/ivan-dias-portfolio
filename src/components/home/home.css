@@ -1,21 +1,20 @@
 .section-home{
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
 .home{
     height: auto;
-    margin-top: 150px;
+    margin: 4% 0;
     display: flex;
     flex-direction: column;
-
+    padding: 0 25%;
 }
 
 .home-info{
-    width: 900px;
-    height: 300px;
-
     display: flex;
+    margin-top: 20%;
 }
 
 .home-titles{
@@ -23,14 +22,13 @@
 }
 
 .home-title-primary{
-    font-size: 50px;
+    font-size: 2.6rem;
     font-weight: 700;
     margin: 0;
 }
 
 .home-title-secondary{
-    margin: 0;
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: 700;
     margin-bottom: 15px;
 }
@@ -90,7 +88,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
     
     margin-top: 150px;
 }
@@ -106,12 +103,47 @@
     object-fit: contain;
 }
 
-@media screen and (max-width: 950px) {
+@media only screen and (min-width:0px) and (max-width:480px) { 
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+    .home{
+        padding: 0 5%;
+    }
     .home-info{
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
-        margin-top: 150px;
+        margin-top: 25%;
+    }
+    .home-titles{
+        margin-right: 0px;
+        margin-top:5%;
+    }
+
+    .home-title-primary{
+        font-size: 2rem;
+        font-weight: 700;
+        margin: 0;
+    }
+    
+    .home-title-secondary{
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 15px;
+        margin: 0;
+    }
+
+    .home-skills{
+        margin-bottom: 25%;
+    }    
+    
+}
+
+@media only screen and (min-width:481px) and (max-width:768px) { 
+    /* smartphones, Android phones, landscape iPhone */
+    .home-info{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
     }
 
     .img-portofolio {
@@ -126,48 +158,37 @@
         align-items: center;
         justify-content: center;
 
-        margin: 0 15%;
-        margin-top: 50px;
+        margin: 0 0%;
+        margin-top:5%;
     }
     
     .home-skills{
-        display: flex;
+        margin-top: 150px;
+        margin-bottom: 25%;
+    }
+}
+
+@media only screen and (min-width:769px) and (max-width:1024px)  { 
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+    .home-info{
+        flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
-        width: 100%;
-        
-        margin-top: 150px;
     }
-  }
-
-  @media screen and (max-width: 652px) {
 
     .home-titles{
-        margin: 0 30%;
-        margin-top: 50px;
-    }
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
 
-    .home-title-primary{
-        font-size: 30px;
-    }
-
-    .home-title-secondary{
-        font-size: 20px;
-    }
-
-    .home-titles p{
-        font-size: 15px;
-    }
-
-    .home-skills{
-       flex-direction: column;
+        margin: 0 0%;
+        margin-top:5%;
     }
 }
-
-@media screen and (max-width: 430px) {
-    .home-skills img{
-        width: 55px;
-    }
+@media only screen and (min-width:1025px) and (max-width:1200px)   { 
+    /* tablet, landscape iPad, lo-res laptops ands desktops */ 
 }
+@media (min-width:1201px) { 
+    /* big landscape tablets, laptops, and desktops */ 
 
-  
+}

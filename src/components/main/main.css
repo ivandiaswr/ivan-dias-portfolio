@@ -1,0 +1,6 @@
+main {
+    display: grid;
+    place-content: center;
+    grid-template-columns: 100%;
+}
+
