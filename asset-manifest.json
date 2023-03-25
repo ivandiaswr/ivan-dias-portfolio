@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ivan-dias-portfolio/static/css/main.a56ddca7.css",
+    "main.css": "/ivan-dias-portfolio/static/css/main.d346c8d6.css",
     "main.js": "/ivan-dias-portfolio/static/js/main.591d3f98.js",
     "static/media/html5-logo.png": "/ivan-dias-portfolio/static/media/html5-logo.dbc3baa7e405494219e6.png",
     "static/media/resume.pdf": "/ivan-dias-portfolio/static/media/resume.b38406c311cee07e2545.pdf",
@@ -13,11 +13,11 @@
     "static/media/css3-logo.png": "/ivan-dias-portfolio/static/media/css3-logo.5d3f585222f506795d53.png",
     "static/media/email-logo-black.png": "/ivan-dias-portfolio/static/media/email-logo-black.51b08bcbb5af7a861c31.png",
     "index.html": "/ivan-dias-portfolio/index.html",
-    "main.a56ddca7.css.map": "/ivan-dias-portfolio/static/css/main.a56ddca7.css.map",
+    "main.d346c8d6.css.map": "/ivan-dias-portfolio/static/css/main.d346c8d6.css.map",
     "main.591d3f98.js.map": "/ivan-dias-portfolio/static/js/main.591d3f98.js.map"
   },
   "entrypoints": [
-    "static/css/main.a56ddca7.css",
+    "static/css/main.d346c8d6.css",
     "static/js/main.591d3f98.js"
   ]
 }
