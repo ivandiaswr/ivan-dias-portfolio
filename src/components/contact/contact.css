@@ -208,25 +208,25 @@
 @media screen and (min-width:1025px) and (max-width:1200px)   { 
     /* tablet, landscape iPad, lo-res laptops ands desktops */ 
     .section-contact-form{
-        margin: 0 5%;
+        margin: 2% 5%;
     }
 }
 
 @media screen and (min-width:1201px) and (max-width:1390px)   { 
     .section-contact-form{
-        margin: 0 10%;
+        margin: 2% 10%;
     }
 }
 @media screen and (min-width:1391px) and (max-width:1869px) { 
     /* big landscape tablets, laptops, and desktops */ 
     .section-contact-form{
-        margin: 0 15%;
+        margin: 2% 15%;
     }
 }
 @media screen and (min-width:1870px) { 
     /* big landscape tablets, laptops, and desktops */ 
     .section-contact-form{
-        margin: 0 25%;
+        margin: 2% 25%;
     }
 }
 
