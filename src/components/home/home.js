@@ -22,7 +22,7 @@ function Home() {
                 <div className="home-titles">
                   <h1 className="home-title-primary">Full-Stack Developer</h1>
                   <h2 className="home-title-secondary">with <span>.NET</span> and <span>React.js</span></h2>
-                  <p>I'm Ivan. I'm passionate about building software that not only meets client requirements but also exceeds their expectations. I always strive to create clean, maintainable code that follows best practices. If you're looking for a driven developer for your next project, feel free to contact me through the website.</p><p>Based in <strong>Lisbon, Portugal</strong>.</p>
+                  <p>My name is Ivan. I'm passionate about building clean and maintainable software that not only meets my client requirements but also goes beyond their expectations.<p> If you're looking for a driven professional that follows the very best practices, feel free to contact me through this website.</p> </p><p>Based in <strong>Lisbon, Portugal</strong>.</p>
 
                   <div className="images">
                     <a className="a-linkedin" href="https://www.linkedin.com/in/ivandiaswr/" target="_blank" rel="noreferrer"><img className="img-linkedin" src={linkedin} alt="LinkedIn" title="LinkedIn"/></a>

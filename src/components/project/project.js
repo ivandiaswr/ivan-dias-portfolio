@@ -16,8 +16,7 @@ function Project() {
                 <div className="section-project-info">
                   <div className="section-project-description">
                     <h2>Portfolio</h2>
-                    <p>Website where you can learn more about me and explore some of the projects I've worked on. The website is built using React.js, which allows for easy organization of components.
-                      While the website is simple, it's designed to showcase my skills and experience as a developer. Each project page includes a brief description and links to live demos and GitHub repositories, so you can explore the projects in more detail.</p>
+                    <p>In this website you can learn more about me and explore some of the projects I've worked on.<p>This application was built using React.js, which allows for an easier component organization, and while the project is simple it was designed to showcase my skills and experience as a developer.</p></p>
                   </div>
                   <div className="section-project-skills">
                     <p>HTML5</p>
