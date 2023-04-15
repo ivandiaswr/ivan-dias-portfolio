@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/ivan-dias-portfolio/static/css/main.d346c8d6.css",
-    "main.js": "/ivan-dias-portfolio/static/js/main.720cb0b6.js",
+    "main.css": "/ivan-dias-portfolio/static/css/main.43a292a9.css",
+    "main.js": "/ivan-dias-portfolio/static/js/main.9e8fd687.js",
     "static/media/html5-logo.png": "/ivan-dias-portfolio/static/media/html5-logo.dbc3baa7e405494219e6.png",
     "static/media/resume.pdf": "/ivan-dias-portfolio/static/media/resume.d4ab181ff9b9528dbece.pdf",
-    "static/media/portfolio-thumbnail.png": "/ivan-dias-portfolio/static/media/portfolio-thumbnail.bc806949cdb82e7f5d6f.png",
+    "static/media/holidayplanner-thumbnail.png": "/ivan-dias-portfolio/static/media/holidayplanner-thumbnail.0958c827dd2827e051be.png",
     "static/media/ivan-logo.jpg": "/ivan-dias-portfolio/static/media/ivan-logo.63824e0bcd70b4835896.jpg",
     "static/media/javascript-logo.png": "/ivan-dias-portfolio/static/media/javascript-logo.bee447a50907c4b8a2cf.png",
     "static/media/react-logo.png": "/ivan-dias-portfolio/static/media/react-logo.ed33fa9be5bfabe48848.png",
@@ -13,11 +13,11 @@
     "static/media/css3-logo.png": "/ivan-dias-portfolio/static/media/css3-logo.5d3f585222f506795d53.png",
     "static/media/email-logo-black.png": "/ivan-dias-portfolio/static/media/email-logo-black.51b08bcbb5af7a861c31.png",
     "index.html": "/ivan-dias-portfolio/index.html",
-    "main.d346c8d6.css.map": "/ivan-dias-portfolio/static/css/main.d346c8d6.css.map",
-    "main.720cb0b6.js.map": "/ivan-dias-portfolio/static/js/main.720cb0b6.js.map"
+    "main.43a292a9.css.map": "/ivan-dias-portfolio/static/css/main.43a292a9.css.map",
+    "main.9e8fd687.js.map": "/ivan-dias-portfolio/static/js/main.9e8fd687.js.map"
   },
   "entrypoints": [
-    "static/css/main.d346c8d6.css",
-    "static/js/main.720cb0b6.js"
+    "static/css/main.43a292a9.css",
+    "static/js/main.9e8fd687.js"
   ]
 }
