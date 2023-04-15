@@ -6,3 +6,5 @@ In this website you can learn more about me and explore some of the projects I'v
 
 This application was built using React.js, which allows for an easier component organization, and while the project is simple it was designed to showcase my skills and experience as a developer.
 
+[Website Live](https://ivandiaswr.github.io/ivan-dias-portfolio/)
+
